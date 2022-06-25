@@ -1,7 +1,7 @@
-import React from "react";
+import TriplePage from './pages/triple-page'
 
 function app() {
-  return <div></div>;
+  return <TriplePage />
 }
 
-export default app;
+export default app
