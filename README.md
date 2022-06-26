@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 애니메이션 참고
+
+https://shylog.com/react-custom-hooks-scroll-animation-fadein/  // 페이드인 참고
+
+https://studyingych.tistory.com/64 //페이드 인 참고
+
+https://www.youtube.com/watch?v=pwV40r8IGWQ // ref를 이용한 숫자 카운트 참고
