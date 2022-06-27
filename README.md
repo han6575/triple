@@ -1,49 +1,30 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 실행 방법
 
-## Available Scripts
+### `npm install`
 
-In the project directory, you can run:
+**인스톨을 통해 설치된 라이브러리를 추가해주세요**
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `npm run start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 사용한 기술
 
-### `npm test`
+### `typeScript`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+런타임 시 오류 체크 , 코드 작성 단계에서의 타입 결정 , 인터페이스 사용가능 및 객체 지향 프로그래밍에
+유리하여 선택
 
-### `npm run build`
+### `styled-Component`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+코드 내에 css를 작성할 수 있는 장점과 컴퍼넌트를 만들어서 조합하는 웹 페이지를 구성하는 리액트에
+좀 더 명확하게 스타일을 전달할 수 있어 선택
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `useRef` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+리액트 훅으로 컴포넌트에서 특정 DOM에 직접 접근하여 화면을 수정(숫자를 증가시키는 효과)를 숫자가
+바뀔때마다 render하는 방식이 아닌 방식으로 처리하기 위해 선택
 
 ## 애니메이션 참고
 
